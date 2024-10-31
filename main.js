@@ -13,34 +13,34 @@ function startGame(){
         let moveOn=2
         if(climbIt){
             alert("you see a ladder and climb it, Oh and it takes you to a pile of candy! Horray!")    
-        }else(moveOn){
+        }else(2)
             alert("Oh no!!!! A scary ghost!!!")
         }
 
-   }
    function library(){
         prompt("You see a creepy old book on a dusty table. Do you (1) open it or (2) leave it alone?")
     let openIt=1
     let leaveIt=2
-    if(openIt){
+    if(1){
         alert("A ghost emerges from the book and scares you to death!")
-    }else(leaveIt){
+    }else(2)
         alert("You quietly leave the library and find the exit. You survive!")
     }
-    }
-    alert("The End. Thanks for playing!")
-   }
 
    function autoshop(){
     prompt("You hear strange noises. Do you (1) investigate or (2) run away?")
         let investigateNoise = 1
         let runAway = 2
-        if (investigateNoise){
+        if (1){
             alert("You discover a car trunk filled with candy!")
-        }else (runAway){
+        }else (2)
             alert("You trip and fall... The ghost catches you!")
-        }
-        }
-    )
+        
    }
-   startGame();
+function main(){
+    startGame();
+    basement();
+    library();
+    autoshop();
+}
+main();
