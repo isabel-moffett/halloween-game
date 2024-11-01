@@ -1,12 +1,13 @@
 function startGame(){
-    function userName () {
-        userName=prompt("What is your name?");
-        console.log("Hello,"+userName+", welcome to the haunted All Saints High School");
-        }
+    userName();
     prompt("which path do you choose library(1) or basement(2)?")
     let basement=2
     let library=1
 }
+function userName () {
+    userName=prompt("What is your name?");
+    console.log("Hello,"+userName+", welcome to the haunted All Saints High School");
+    }
    function basement(){
     prompt("You see a spooky looking closet. you decide to investigate. There is a ladder going up. do you (1)climb it or (2) move on?")
         let climbIt=1
